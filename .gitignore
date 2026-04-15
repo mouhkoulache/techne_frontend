@@ -1,0 +1,17 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Android-specific
+.gradle/
+local.properties
+ant.properties
+*.keystore
+*.jks
+
+# Logs and transient files
+*.log
+.history

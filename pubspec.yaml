@@ -1,0 +1,39 @@
+name: techne
+description: Techne — where artisans and professionals evolve together.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # These must be lined up with "flutter:" above
+  font_awesome_flutter: ^10.7.0
+
+  material_design_icons_flutter: ^7.0.7296
+
+  video_player: ^2.8.1
+
+  chewie: ^1.7.1 
+  # Provides the UI controls (play/pause/fullscreen)
+  percent_indicator: ^4.2.3
+  
+  # Fonts — Newsreader (serif headlines) + Manrope (clean body text)
+  google_fonts: ^6.2.1
+
+  # Navigation
+  go_router: ^14.2.0
+
+  # Network images with caching + shimmer placeholders
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
